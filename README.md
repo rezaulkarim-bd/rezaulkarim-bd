@@ -1,7 +1,8 @@
 <!-- Banner -->
 <p align="center">
   <img
-    src="https://capsule-render.vercel.app/api?type=waving&color=0:667eea,100:764ba2&height=250&section=header&text=Rezaul%20Karim&fontSize=50&fontColor=ffffff&animation=fadeIn&fontAlignY=40"
+    src="<img width="1122" height="1402" alt="WhatsApp Image 2026-09-03 at 7 59 19 AM" src="https://github.com/user-attachments/assets/94235c57-f154-4407-9cfc-206c0a9bbd72" />
+type=waving&color=0:667eea,100:764ba2&height=250&section=header&text=Rezaul%20Karim&fontSize=50&fontColor=ffffff&animation=fadeIn&fontAlignY=40"
     width="100%"
   />
 </p>
