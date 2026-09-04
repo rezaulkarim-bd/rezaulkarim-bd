@@ -92,6 +92,6 @@
 
 <!-- Contact -->
 <p align="center">
-  📧 your@email.com &nbsp; | &nbsp;
-  🌐 yourwebsite.com
+  📧 rezaulkarim3659@gmail.com &nbsp; | &nbsp;
+  🌐 Mywebsite.com
 </p>
