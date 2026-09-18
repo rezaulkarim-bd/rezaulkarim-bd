@@ -37,7 +37,8 @@
 
   <a href="https://nextjs.org/" target="_blank">
     <img
-      src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nextjs/nextjs-original.svg"
+      src="<img width="1254" height="1254" alt="WhatsApp Image 2026-09-05 at 6 08 30 PM" src="https://github.com/user-attachments/assets/5b59f39b-1253-43b4-9f6e-e6d6d5074e72" />
+"
       alt="nextjs"
       width="40"
       height="40"
