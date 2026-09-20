@@ -29,7 +29,8 @@
       <!-- Right Column: Profile Image -->
       <td width="35%" align="center" valign="middle" style="border: none;">
         <!-- এখানে 'src' এর মধ্যে আপনার ছবির URL বসিয়ে দিন -->
-        <img src="YOUR_IMAGE_URL_HERE" width="200" style="border-radius: 50%;" alt="Abdur Razzak Sakib" />
+        <img src="<img width="1200" height="1600" alt="WhatsApp Image 2026-09-20 at 10 25 39 PM" src="https://github.com/user-attachments/assets/fa858d58-0cde-4760-8896-ff316cc06e41" />
+="200" style="border-radius: 50%;" alt="Abdur Razzak Sakib" />
       </td>
     </tr>
   </table>
