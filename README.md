@@ -6,8 +6,7 @@
   <br /><br />
 
   <!-- Profile Image -->
-  <img src="<img width="1200" height="1600" alt="WhatsApp Image 2026-09-20 at 10 25 39 PM" src="https://github.com/user-attachments/assets/1451ea90-05cd-4dfd-ab0d-50b5c4caf8f8" />
-" width="150" height="150" style="border-radius: 50%;" alt="Rezaul Karim" />
+  <img src="https://github.com/rezaulkarim-bd.png" width="250" height="250" style="border-radius: 50%;" alt="Rezaul Karim" />
 
   <h1>👋 Hi, I'm <span style="color: #61DAFB;">Rezaul Karim</span></h1>
   <h3>💻 Full Stack Developer</h3>
