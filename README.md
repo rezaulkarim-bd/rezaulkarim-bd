@@ -1,113 +1,23 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<!-- Banner Section Start -->
+<div align="center">
+  <!-- Banner Image (আপনার ইচ্ছামত ব্যানারের ইমেজ URL বসাতে পারেন) -->
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=auto&height=200&section=header&text=Abdur%20Razzak%20Sakib&fontSize=40&animation=fadeIn&fontAlignY=38" width="100%" alt="Header Banner" />
 
-  <title>Abdur Razzak Sakib | Full Stack Developer</title>
+  <h1>👋 Hi, I'm <span style="color: #61DAFB;">Abdur Razzak Sakib</span></h1>
+  <h3>💻 Full Stack Developer</h3>
 
-  <link rel="stylesheet" href="style.css" />
+  <p>Passionate about building modern web applications with cutting-edge technologies.</p>
 
-  <!-- Google Font -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link
-    href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700&family=Poppins:wght@400;500;600&display=swap"
-    rel="stylesheet"
-  />
-</head>
+  <br />
 
-<body>
-
-  <section class="hero">
-
-    <!-- Background -->
-    <div class="circuit circuit-1"></div>
-    <div class="circuit circuit-2"></div>
-    <div class="circuit circuit-3"></div>
-
-    <div class="hero-container">
-
-      <!-- Content -->
-      <div class="hero-content">
-
-        <h1>
-          Abdur Razzak <span>Sakib</span>
-        </h1>
-
-        <div class="role">
-          <i></i>
-          <p>Full Stack Developer</p>
-          <i></i>
-        </div>
-
-        <!-- Tech Icons -->
-        <div class="tech-stack">
-
-          <div class="tech ts">TS</div>
-
-          <div class="tech react">
-            ⚛️
-          </div>
-
-          <div class="tech next">
-            N
-          </div>
-
-          <div class="tech node">
-            ◇
-          </div>
-
-          <div class="tech mongo">
-            🍃
-          </div>
-
-          <div class="tech">
-            ◉
-          </div>
-
-        </div>
-
-        <p class="description">
-          Building scalable and efficient web applications
-          with <span>clean code</span> and
-          <span>modern technologies.</span>
-        </p>
-
-        <!-- Contact -->
-        <div class="contact">
-
-          <a href="mailto:abdurrayzaqsakib@gmail.com">
-            <strong>✉️</strong>
-            abdurrayzaqsakib@gmail.com
-          </a>
-
-          <div class="separator"></div>
-
-          <p>
-            <strong>🌐</strong>
-            Let's build something amazing together!
-          </p>
-
-        </div>
-
-      </div>
-
-      <!-- Profile -->
-      <div class="profile">
-
-        <div class="profile-glow"></div>
-
-        <img
-          src="images/profile.png"
-          alt="Profile"
-        />
-
-      </div>
-
-    </div>
-
-  </section>
-
-</body>
-</html>
+  <!-- Tech Stack Section -->
+  <h3>🚀 Tech Stack</h3>
+  <p>
+    <img src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" />
+    <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React" />
+    <img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white" alt="Next.js" />
+    <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" alt="Node.js" />
+    <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" alt="Tailwind CSS" />
+  </p>
+</div>
+<!-- Banner Section End -->
