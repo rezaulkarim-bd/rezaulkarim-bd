@@ -3,7 +3,7 @@
   <!-- Banner Image (আপনার ইচ্ছামত ব্যানারের ইমেজ URL বসাতে পারেন) -->
   <img src="https://capsule-render.vercel.app/api?type=waving&color=auto&height=200&section=header&text=Abdur%20Razzak%20Sakib&fontSize=40&animation=fadeIn&fontAlignY=38" width="100%" alt="Header Banner" />
 
-  <h1>👋 Hi, I'm <span style="color: #61DAFB;">Abdur Razzak Sakib</span></h1>
+  <h1>👋 Hi, I'm <span style="color: #61DAFB;">Rezaul Karim</span></h1>
   <h3>💻 Full Stack Developer</h3>
 
   <p>Passionate about building modern web applications with cutting-edge technologies.</p>
