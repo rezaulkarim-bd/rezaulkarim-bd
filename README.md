@@ -1,7 +1,7 @@
 <!-- Banner Section Start -->
 <div align="center">
   <!-- Banner Image (আপনার ইচ্ছামত ব্যানারের ইমেজ URL বসাতে পারেন) -->
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=auto&height=200&section=header&text=Rezaul%20Razzak%20karim&fontSize=40&animation=fadeIn&fontAlignY=38" width="100%" alt="Header Banner" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=auto&height=200&section=header&text=Rezaul%20Karim%20&fontSize=40&animation=fadeIn&fontAlignY=38" width="100%" alt="Header Banner" />
 
   <h1>👋 Hi, I'm <span style="color: #61DAFB;">Rezaul Karim</span></h1>
   <h3>💻 Full Stack Developer</h3>
