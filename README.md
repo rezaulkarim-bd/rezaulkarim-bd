@@ -1,67 +1,56 @@
-export default function ProfileBanner() {
-  return (
-    <div className="relative w-full max-w-5xl mx-auto overflow-hidden rounded-2xl bg-gradient-to-r from-indigo-100 via-purple-50 to-blue-100 border border-neutral-200 shadow-md">
-      {/* ব্যাকগ্রাউন্ড প্যাটার্ন বা অপশনাল ডিজাইন এলিমেন্ট */}
-      <div className="absolute inset-0 opacity-10 bg-[radial-gradient(#4f46e5_1px,transparent_1px)] [background-size:16px_16px]"></div>
+<div class="relative w-full max-w-5xl mx-auto overflow-hidden rounded-2xl bg-gradient-to-r from-indigo-100 via-purple-50 to-blue-100 border border-neutral-200 shadow-md">
+  <!-- Background Pattern -->
+  <div class="absolute inset-0 opacity-10 bg-[radial-gradient(#4f46e5_1px,transparent_1px)] [background-size:16px_16px]"></div>
 
-      <div className="relative z-10 flex flex-col md:flex-row items-center justify-between px-6 md:px-12 py-8 gap-6">
-        
-        {/* বাম পাশ: টেক্সট, স্কিল আইকন ও ইনফো */}
-        <div className="flex flex-col items-center md:items-start text-center md:text-left space-y-4">
-          
-          {/* টপ ব্যাজ */}
-          <span className="inline-block px-4 py-1.5 text-xs font-semibold tracking-wider text-indigo-700 uppercase bg-indigo-200/70 rounded-full shadow-sm">
-            Let's Collaborate! 🚀
-          </span>
+  <div class="relative z-10 flex flex-col md:flex-row items-center justify-between px-6 md:px-12 py-8 gap-6">
+    
+    <!-- Left Side: Content -->
+    <div class="flex flex-col items-center md:items-start text-center md:text-left space-y-4">
+      <span class="inline-block px-4 py-1.5 text-xs font-semibold tracking-wider text-indigo-700 uppercase bg-indigo-200/70 rounded-full shadow-sm">
+        Let's Collaborate! 🚀
+      </span>
 
-          {/* নাম ও টাইটেল */}
-          <div>
-            <h1 className="text-3xl md:text-4xl font-extrabold text-neutral-900 tracking-tight">
-              Touhidur Zaman
-            </h1>
-            <p className="text-base md:text-lg font-medium text-indigo-800 mt-1">
-              Full Stack Developer
-            </p>
-          </div>
+      <div>
+        <h1 class="text-3xl md:text-4xl font-extrabold text-neutral-900 tracking-tight">
+          Touhidur Zaman
+        </h1>
+        <p class="text-base md:text-lg font-medium text-indigo-800 mt-1">
+          Full Stack Developer
+        </p>
+      </div>
 
-          {/* টেকনোলজি বা স্কিল আইকন/লোগো সেকশন */}
-          <div className="flex flex-wrap items-center justify-center md:justify-start gap-3 pt-1 text-xs text-neutral-700">
-            <span className="px-2.5 py-1 bg-white/80 backdrop-blur rounded-md shadow-sm font-semibold">TypeScript</span>
-            <span className="px-2.5 py-1 bg-white/80 backdrop-blur rounded-md shadow-sm font-semibold">React</span>
-            <span className="px-2.5 py-1 bg-white/80 backdrop-blur rounded-md shadow-sm font-semibold">Next.js</span>
-            <span className="px-2.5 py-1 bg-white/80 backdrop-blur rounded-md shadow-sm font-semibold">Node.js</span>
-            <span className="px-2.5 py-1 bg-white/80 backdrop-blur rounded-md shadow-sm font-semibold">MongoDB</span>
-          </div>
+      <div class="flex flex-wrap items-center justify-center md:justify-start gap-3 pt-1 text-xs text-neutral-700">
+        <span class="px-2.5 py-1 bg-white/80 backdrop-blur rounded-md shadow-sm font-semibold">TypeScript</span>
+        <span class="px-2.5 py-1 bg-white/80 backdrop-blur rounded-md shadow-sm font-semibold">React</span>
+        <span class="px-2.5 py-1 bg-white/80 backdrop-blur rounded-md shadow-sm font-semibold">Next.js</span>
+        <span class="px-2.5 py-1 bg-white/80 backdrop-blur rounded-md shadow-sm font-semibold">Node.js</span>
+        <span class="px-2.5 py-1 bg-white/80 backdrop-blur rounded-md shadow-sm font-semibold">MongoDB</span>
+      </div>
 
-          {/* ছোট ট্যাগলাইন বা বিবরণ */}
-          <p className="text-sm text-neutral-600 italic">
-            Turning ideas into clean, scalable web apps
-          </p>
+      <p class="text-sm text-neutral-600 italic">
+        Turning ideas into clean, scalable web apps
+      </p>
 
-          {/* কন্টাক্ট বা ইমেইল */}
-          <div className="flex items-center gap-2 text-xs text-neutral-700 pt-1">
-            <span>✉️ touhidcodes@gmail.com</span>
-            <span>•</span>
-            <span>🌐 touhidcodes.vercel.app</span>
-          </div>
-
-        </div>
-
-        {/* ডান পাশ: প্রফেশনাল ছবি */}
-        <div className="flex-shrink-0">
-          <div className="relative w-40 h-40 md:w-52 md:h-52 rounded-full p-1 bg-gradient-to-tr from-indigo-600 to-purple-500 shadow-xl">
-            <img 
-              src="/your-profile-pic.png" // এখানে আপনার ছবির পাথ বা লিংক দিন
-              alt="Touhidur Zaman" 
-              className="w-full h-full object-cover rounded-full bg-white"
-            />
-          </div>
-        </div>
-
+      <div class="flex items-center gap-2 text-xs text-neutral-700 pt-1">
+        <span>✉️ touhidcodes@gmail.com</span>
+        <span>•</span>
+        <span>🌐 touhidcodes.vercel.app</span>
       </div>
     </div>
-  );
-}
+
+    <!-- Right Side: Image -->
+    <div class="flex-shrink-0">
+      <div class="relative w-40 h-40 md:w-52 md:h-52 rounded-full p-1 bg-gradient-to-tr from-indigo-600 to-purple-500 shadow-xl">
+        <img 
+          src="/your-profile-pic.png" 
+          alt="Touhidur Zaman" 
+          class="w-full h-full object-cover rounded-full bg-white"
+        />
+      </div>
+    </div>
+
+  </div>
+</div>
 
 - 🌱 I’m currently learning **react.js**
 
