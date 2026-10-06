@@ -1,33 +1,67 @@
-<!-- Banner Section Start -->
-<div align="center">
-  <!-- Top Animated Header -->
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=auto&height=180&section=header&text=Welcome%20to%20My%20Profile&fontSize=35&animation=fadeIn" width="100%" alt="Header Banner" />
+export default function ProfileBanner() {
+  return (
+    <div className="relative w-full max-w-5xl mx-auto overflow-hidden rounded-2xl bg-gradient-to-r from-indigo-100 via-purple-50 to-blue-100 border border-neutral-200 shadow-md">
+      {/* ব্যাকগ্রাউন্ড প্যাটার্ন বা অপশনাল ডিজাইন এলিমেন্ট */}
+      <div className="absolute inset-0 opacity-10 bg-[radial-gradient(#4f46e5_1px,transparent_1px)] [background-size:16px_16px]"></div>
 
-  <br /><br />
+      <div className="relative z-10 flex flex-col md:flex-row items-center justify-between px-6 md:px-12 py-8 gap-6">
+        
+        {/* বাম পাশ: টেক্সট, স্কিল আইকন ও ইনফো */}
+        <div className="flex flex-col items-center md:items-start text-center md:text-left space-y-4">
+          
+          {/* টপ ব্যাজ */}
+          <span className="inline-block px-4 py-1.5 text-xs font-semibold tracking-wider text-indigo-700 uppercase bg-indigo-200/70 rounded-full shadow-sm">
+            Let's Collaborate! 🚀
+          </span>
 
-  <!-- Profile Image -->
-  <img src="https://github.com/rezaulkarim-bd.png" width="250" height="250" style="border-radius: 50%;" alt="Rezaul Karim" />
+          {/* নাম ও টাইটেল */}
+          <div>
+            <h1 className="text-3xl md:text-4xl font-extrabold text-neutral-900 tracking-tight">
+              Touhidur Zaman
+            </h1>
+            <p className="text-base md:text-lg font-medium text-indigo-800 mt-1">
+              Full Stack Developer
+            </p>
+          </div>
 
-  <h1>👋 Hi, I'm <span style="color: #61DAFB;">Rezaul Karim</span></h1>
-  <h3>💻 Full Stack Developer</h3>
-  <p>Passionate about building modern web applications with cutting-edge technologies.</p>
+          {/* টেকনোলজি বা স্কিল আইকন/লোগো সেকশন */}
+          <div className="flex flex-wrap items-center justify-center md:justify-start gap-3 pt-1 text-xs text-neutral-700">
+            <span className="px-2.5 py-1 bg-white/80 backdrop-blur rounded-md shadow-sm font-semibold">TypeScript</span>
+            <span className="px-2.5 py-1 bg-white/80 backdrop-blur rounded-md shadow-sm font-semibold">React</span>
+            <span className="px-2.5 py-1 bg-white/80 backdrop-blur rounded-md shadow-sm font-semibold">Next.js</span>
+            <span className="px-2.5 py-1 bg-white/80 backdrop-blur rounded-md shadow-sm font-semibold">Node.js</span>
+            <span className="px-2.5 py-1 bg-white/80 backdrop-blur rounded-md shadow-sm font-semibold">MongoDB</span>
+          </div>
 
-  <br />
+          {/* ছোট ট্যাগলাইন বা বিবরণ */}
+          <p className="text-sm text-neutral-600 italic">
+            Turning ideas into clean, scalable web apps
+          </p>
 
-  <!-- Tech Stack -->
-  <h3>🚀 Tech Stack</h3>
-  <p>
-    <img src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" />
-    <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React" />
-    <img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white" alt="Next.js" />
-    <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" alt="Node.js" />
-  </p>
-</div>
-<!-- Banner Section End -->
-<h1 align="center">Hi 👋, I'm Rezaul Karim</h1>
-<h3 align="center">A passionate frontend developer from bangladesh</h3>
+          {/* কন্টাক্ট বা ইমেইল */}
+          <div className="flex items-center gap-2 text-xs text-neutral-700 pt-1">
+            <span>✉️ touhidcodes@gmail.com</span>
+            <span>•</span>
+            <span>🌐 touhidcodes.vercel.app</span>
+          </div>
 
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=rezaulkarim-bd&label=Profile%20views&color=0e75b6&style=flat" alt="rezaulkarim-bd" /> </p>
+        </div>
+
+        {/* ডান পাশ: প্রফেশনাল ছবি */}
+        <div className="flex-shrink-0">
+          <div className="relative w-40 h-40 md:w-52 md:h-52 rounded-full p-1 bg-gradient-to-tr from-indigo-600 to-purple-500 shadow-xl">
+            <img 
+              src="/your-profile-pic.png" // এখানে আপনার ছবির পাথ বা লিংক দিন
+              alt="Touhidur Zaman" 
+              className="w-full h-full object-cover rounded-full bg-white"
+            />
+          </div>
+        </div>
+
+      </div>
+    </div>
+  );
+}
 
 - 🌱 I’m currently learning **react.js**
 
