@@ -1,44 +1,39 @@
 <!-- Banner Section Start -->
 <div align="center">
-  <table style="border: none; background-color: #e0e7ff; width: 100%; border-radius: 15px; padding: 10px;">
-    <tr>
-      <!-- বাম পাশ: টেক্সট এবং স্কিল আইকন -->
-      <td style="text-align: left; width: 65%; padding-left: 30px; vertical-align: middle;">
-        <h1 style="margin: 0; font-size: 45px; color: #111827;">Rezaul Karim</h1>
-        <p style="margin: 5px 0 15px 0; font-size: 20px; color: #4f46e5; font-weight: 600;">Full Stack Developer</p>
-        
-        <!-- টেকনোলজি আইকন (Badge) -->
-        <p style="margin-top: 15px;">
-          <img src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" />
-          <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React" />
-          <img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white" alt="Next.js" />
-          <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" alt="Node.js" />
-        </p>
-        
-        <!-- ছোট বিবরণ এবং ভিউ কাউন্টার -->
-        <p style="margin-top: 15px; font-style: italic; color: #374151;">
-          Passionate about building modern web applications.
-        </p>
-        <p style="margin-top: 10px;">
-            <img src="https://komarev.com/ghpvc/?username=rezaulkarim-bd&label=Profile%20views&color=007ACC&style=flat-square" alt="rezaulkarim-bd" />
-        </p>
+  <!-- Top Animated Header -->
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=auto&height=180&section=header&text=Welcome%20to%20My%20Profile&fontSize=35&animation=fadeIn" width="100%" alt="Header Banner" />
 
-      </td>
+  <br /><br />
 
-      <!-- ডান পাশ: ছবি -->
-      <td style="text-align: right; width: 35%; padding-right: 30px; vertical-align: middle;">
-        <img src="https://github.com/rezaulkarim-bd.png" width="220" height="220" style="border-radius: 50%; border: 4px solid white; box-shadow: 0 4px 8px rgba(0,0,0,0.1);" alt="Rezaul Karim" />
-      </td>
-    </tr>
-  </table>
+  <!-- Profile Image -->
+  <img src="https://github.com/rezaulkarim-bd.png" width="250" height="250" style="border-radius: 50%;" alt="Rezaul Karim" />
+
+  <h1>👋 Hi, I'm <span style="color: #61DAFB;">Rezaul Karim</span></h1>
+  <h3>💻 Full Stack Developer</h3>
+  <p>Passionate about building modern web applications with cutting-edge technologies.</p>
+
+  <br />
+
+  <!-- Tech Stack -->
+  <h3>🚀 Tech Stack</h3>
+  <p>
+    <img src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" />
+    <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React" />
+    <img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white" alt="Next.js" />
+    <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" alt="Node.js" />
+  </p>
 </div>
 <!-- Banner Section End -->
+<h1 align="center">Hi 👋, I'm Rezaul Karim</h1>
+<h3 align="center">A passionate frontend developer from bangladesh</h3>
 
-- 🌱 I’m currently learning **react.js**
+<p align="left"> <img src="https://komarev.com/ghpvc/?username=rezaulkarim-bd&label=Profile%20views&color=0e75b6&style=flat" alt="rezaulkarim-bd" /> </p>
 
-- 💬 Ask me about **javascript,typescript,next.js**
+- 🌱 I’m currently learning *react.js*
 
-- 📫 How to reach me **rezaulkarim3659@gmail.com**
+- 💬 Ask me about *javascript,typescript,next.js*
+
+- 📫 How to reach me **rezaulkarim3659@gmail.com*
 
 - 📄 Know about my experiences [problem solver](problem solver)
 
