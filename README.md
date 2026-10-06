@@ -1,56 +1,38 @@
-<div class="relative w-full max-w-5xl mx-auto overflow-hidden rounded-2xl bg-gradient-to-r from-indigo-100 via-purple-50 to-blue-100 border border-neutral-200 shadow-md">
-  <!-- Background Pattern -->
-  <div class="absolute inset-0 opacity-10 bg-[radial-gradient(#4f46e5_1px,transparent_1px)] [background-size:16px_16px]"></div>
-
-  <div class="relative z-10 flex flex-col md:flex-row items-center justify-between px-6 md:px-12 py-8 gap-6">
-    
-    <!-- Left Side: Content -->
-    <div class="flex flex-col items-center md:items-start text-center md:text-left space-y-4">
-      <span class="inline-block px-4 py-1.5 text-xs font-semibold tracking-wider text-indigo-700 uppercase bg-indigo-200/70 rounded-full shadow-sm">
-        Let's Collaborate! 🚀
-      </span>
-
-      <div>
-        <h1 class="text-3xl md:text-4xl font-extrabold text-neutral-900 tracking-tight">
-          Touhidur Zaman
-        </h1>
-        <p class="text-base md:text-lg font-medium text-indigo-800 mt-1">
-          Full Stack Developer
+<!-- Banner Section Start -->
+<div align="center">
+  <table style="border: none; background-color: #e0e7ff; width: 100%; border-radius: 15px; padding: 10px;">
+    <tr>
+      <!-- বাম পাশ: টেক্সট এবং স্কিল আইকন -->
+      <td style="text-align: left; width: 65%; padding-left: 30px; vertical-align: middle;">
+        <h1 style="margin: 0; font-size: 45px; color: #111827;">Rezaul Karim</h1>
+        <p style="margin: 5px 0 15px 0; font-size: 20px; color: #4f46e5; font-weight: 600;">Full Stack Developer</p>
+        
+        <!-- টেকনোলজি আইকন (Badge) -->
+        <p style="margin-top: 15px;">
+          <img src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" />
+          <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React" />
+          <img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white" alt="Next.js" />
+          <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" alt="Node.js" />
         </p>
-      </div>
+        
+        <!-- ছোট বিবরণ এবং ভিউ কাউন্টার -->
+        <p style="margin-top: 15px; font-style: italic; color: #374151;">
+          Passionate about building modern web applications.
+        </p>
+        <p style="margin-top: 10px;">
+            <img src="https://komarev.com/ghpvc/?username=rezaulkarim-bd&label=Profile%20views&color=007ACC&style=flat-square" alt="rezaulkarim-bd" />
+        </p>
 
-      <div class="flex flex-wrap items-center justify-center md:justify-start gap-3 pt-1 text-xs text-neutral-700">
-        <span class="px-2.5 py-1 bg-white/80 backdrop-blur rounded-md shadow-sm font-semibold">TypeScript</span>
-        <span class="px-2.5 py-1 bg-white/80 backdrop-blur rounded-md shadow-sm font-semibold">React</span>
-        <span class="px-2.5 py-1 bg-white/80 backdrop-blur rounded-md shadow-sm font-semibold">Next.js</span>
-        <span class="px-2.5 py-1 bg-white/80 backdrop-blur rounded-md shadow-sm font-semibold">Node.js</span>
-        <span class="px-2.5 py-1 bg-white/80 backdrop-blur rounded-md shadow-sm font-semibold">MongoDB</span>
-      </div>
+      </td>
 
-      <p class="text-sm text-neutral-600 italic">
-        Turning ideas into clean, scalable web apps
-      </p>
-
-      <div class="flex items-center gap-2 text-xs text-neutral-700 pt-1">
-        <span>✉️ touhidcodes@gmail.com</span>
-        <span>•</span>
-        <span>🌐 touhidcodes.vercel.app</span>
-      </div>
-    </div>
-
-    <!-- Right Side: Image -->
-    <div class="flex-shrink-0">
-      <div class="relative w-40 h-40 md:w-52 md:h-52 rounded-full p-1 bg-gradient-to-tr from-indigo-600 to-purple-500 shadow-xl">
-        <img 
-          src="/your-profile-pic.png" 
-          alt="Touhidur Zaman" 
-          class="w-full h-full object-cover rounded-full bg-white"
-        />
-      </div>
-    </div>
-
-  </div>
+      <!-- ডান পাশ: ছবি -->
+      <td style="text-align: right; width: 35%; padding-right: 30px; vertical-align: middle;">
+        <img src="https://github.com/rezaulkarim-bd.png" width="220" height="220" style="border-radius: 50%; border: 4px solid white; box-shadow: 0 4px 8px rgba(0,0,0,0.1);" alt="Rezaul Karim" />
+      </td>
+    </tr>
+  </table>
 </div>
+<!-- Banner Section End -->
 
 - 🌱 I’m currently learning **react.js**
 
