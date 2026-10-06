@@ -29,11 +29,11 @@
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=rezaulkarim-bd&label=Profile%20views&color=0e75b6&style=flat" alt="rezaulkarim-bd" /> </p>
 
-- 🌱 I’m currently learning *react.js*
+- 🌱 I’m currently learning react.js and next.js
 
-- 💬 Ask me about *javascript,typescript,next.js*
+- 💬 Ask me about javascript,typescript,next.js
 
-- 📫 How to reach me **rezaulkarim3659@gmail.com*
+- 📫 How to reach me rezaulkarim3659@gmail.com
 
 - 📄 Know about my experiences [problem solver](problem solver)
 
